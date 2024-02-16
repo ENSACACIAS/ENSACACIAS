@@ -1,4 +1,4 @@
-h1 {
+.ensanm {
     align-items: center;
     justify-content: center;
     color: white;
@@ -6,6 +6,7 @@ h1 {
     display: flex;
     margin-top: 0px;
     font-size: 50px;
+    position: relative;
 }
 .icon {
     width: 50px;
@@ -19,11 +20,10 @@ h1 {
     text-align: center;
     height: 100%;
     width: 100%;
-    filter: brightness(1.25);
 
 }
 .about {
-    font-size: 17px;
+
     font-family: sans-serif;
     display: flex;
     justify-content: right;
@@ -34,26 +34,17 @@ h1 {
     height: 50px;
 }
 .sobre {
-    margin-right: 10px;
-}
-.recuerdos {
-    margin-right: 10px;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
 }
 body {
     margin: 0%;
 }
-.inicio {
-    filter: brightness(0.6);
-
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    background-image: url(a.png);
-
-}
 .a {
     background-image: url(a.jpg);
     background-position: center;
-    filter: brightness(0.8);
-    background-size: 100%;
+    background-size: cover;
 } 
