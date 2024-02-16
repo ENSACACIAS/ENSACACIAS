@@ -1,3 +1,58 @@
 h1 {
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 500px;
+    display: flex;
+    margin-top: 0px;
+    font-size: 50px;
 }
+.icon {
+    width: 50px;
+    height: 50px;
+    align-items: start;
+}
+.header {
+    background: transparent;
+
+    display: flex;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    filter: brightness(1.25);
+
+}
+.about {
+    font-size: 17px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    background: transparent;
+    width: 1000vh;
+    height: 50px;
+}
+.sobre {
+    margin-right: 10px;
+}
+.recuerdos {
+    margin-right: 10px;
+}
+body {
+    margin: 0%;
+}
+.inicio {
+    filter: brightness(0.6);
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-image: url(a.png);
+
+}
+.a {
+    background-image: url(a.png);
+    background-position: center;
+    filter: brightness(0.8);
+} 
