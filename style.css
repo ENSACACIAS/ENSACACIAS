@@ -52,7 +52,8 @@ body {
 
 }
 .a {
-    background-image: url(a.png);
+    background-image: url(a.jpg);
     background-position: center;
     filter: brightness(0.8);
+    background-size: 100%;
 } 
