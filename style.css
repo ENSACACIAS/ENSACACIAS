@@ -34,7 +34,7 @@
     height: 50px;
 }
 .sobre {
-    margin: 20px;
+    padding: 20px;
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -48,3 +48,7 @@ body {
     background-position: center;
     background-size: cover;
 } 
+.sobre:hover {
+    background-color: rgba(0, 0, 0, .33);
+    background-size: 100%;
+}
