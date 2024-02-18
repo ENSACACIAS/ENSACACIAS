@@ -50,11 +50,13 @@ li:hover {
 .ul-second > li {
     width: 110px;
     transform: translateX(-20px);
-    border: solid 10px #fff ;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.3);
 }
-
+.abajo .ul-second > li {
+    background-color: white;
+    z-index: 20;
+}
 .ul-second > li:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -64,13 +66,13 @@ li:hover {
 }
 
 @media (max-width:900px) {
-    .icon {
+    .ENSA {
         display: none;
     }
 }
 .ref, .ref1{
     text-decoration: none;
-    color: #fff;
+    color: white;
 }
 .ensanm {
     align-items: center;
@@ -100,10 +102,10 @@ li:hover {
     text-decoration: none;
     color: white;
 }
-.abajo  .ref, .abajo .ENSA {
+.abajo  .ref, .abajo .ENSA{
     color: black;
     transition: all;
-    transition-duration: 0s;
+    transition-duration: 0.5s;
 }
 .abajo {
     background-color: white;
