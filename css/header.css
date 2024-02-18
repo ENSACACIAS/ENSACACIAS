@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'fantasy', sans-serif;
+    font-family: sans-serif;
 }
 
 body {
@@ -18,6 +18,7 @@ header {
     align-items: center;
     background: transparent;
     padding-left: 2vw;
+    position: fixed;
 }
 
 .cont-ul {
@@ -90,3 +91,15 @@ li:hover {
     background-position: center;
     background-size: cover;
 } 
+.ENSA{
+    font-size: 20px;
+    justify-content: left;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    text-decoration: none;
+    color: white;
+}
+.abajo {
+    background-color: white;
+}
