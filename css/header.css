@@ -68,7 +68,7 @@ li:hover {
         display: none;
     }
 }
-.ref{
+.ref, .ref1{
     text-decoration: none;
     color: #fff;
 }
@@ -100,7 +100,11 @@ li:hover {
     text-decoration: none;
     color: white;
 }
+.abajo  .ref, .abajo .ENSA {
+    color: black;
+    transition: all;
+    transition-duration: 0s;
+}
 .abajo {
     background-color: white;
-    color: black;
 }
